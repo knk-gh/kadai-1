@@ -63,3 +63,35 @@ main {
 	left: 0;
 	color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+
+	main {
+		width: 100%;
+	}
+
+	.box {
+		width: 90%;
+		float: none;
+		margin-right: 0;
+		margin-left: 5%;
+		margin-bottom: 20px;
+		padding: 2%;
+	}
+
+	.box-image1,.box-image2,.box-image3 {
+		padding-top: 40%;
+	}
+
+	.step {
+		font-size: 190%;
+	}
+
+	.h-text {
+		font-size: 200%;
+	}
+
+	.p-text {
+		font-size: 180%;
+	}
+}
